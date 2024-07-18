@@ -1,0 +1,17 @@
+{
+  "name": "@nobody/g-library",
+  "version": "0.1.83",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
+    "@nobody/d-library": "*",
+    "@nobody/c-library": "^0.1.83",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+  },
+  "sideEffects": false,
+  "gitHead": "ee34436cf02076bde520f7cd51dd6a8848ff57cc"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "a-cli",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+  },
+  "dependencies": {
+    "@date-fns/utc": "^1.2.0",
+    "@google-cloud/bigquery": "^7.5.1",
+    "@google-cloud/cloud-sql-connector": "^1.2.4",
+    "@google-cloud/sql": "^0.10.0",
+    "@google-cloud/storage": "^7.9.0",
+    "@maktouch/kysely-bigquery": "^1.0.3",
+    "@nobody/d-library": "^0.1.42",
+    "@nobody/c-library": "^0.1.47",
+    "i-library": "*",
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.4.6",
+    "date-fns": "^3.6.0",
+    "fast-csv": "^5.0.1",
+    "kysely": "^0.27.3",
+    "kysely-codegen": "^0.13.1",
+    "mysql2": "^3.9.4",
+    "next": "14.1.4",
+    "p-all": "^5.0.0",
+    "papaparse": "^5.4.1",
+    "pg": "^8.11.5",
+    "pg-query-stream": "^4.5.5",
+    "rollbar": "^2.26.4",
+    "ua-parser-js": "^1.0.34",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.14",
+    "@types/pg": "^8.11.5",
+    "@types/ua-parser-js": "^0.7.36"
+  }
+}

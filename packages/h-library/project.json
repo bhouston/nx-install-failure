@@ -1,0 +1,10 @@
+{
+  "name": "@nobody/h-library",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "build": {},
+    "lint:check": {},
+    "lint": {},
+    "format": {}
+  }
+}

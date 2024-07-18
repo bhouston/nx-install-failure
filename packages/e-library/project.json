@@ -1,0 +1,49 @@
+{
+  "name": "@nobody/e-library",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*"],
+    "production": [
+      "!{projectRoot}/**/*.test.ts",
+      "!{projectRoot}/**/*.stories.ts"
+    ],
+    "storybook": ["!{projectRoot}/**/*.test.ts"]
+  },
+  "targets": {
+    "watch": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"],
+      "outputs": ["{projectRoot}/dist"],
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": ["storybook dev -p 6006 --quiet --no-open", "vite"]
+      }
+    },
+    "build:production": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"],
+      "outputs": ["{projectRoot}/dist"],
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": ["vite build"]
+      },
+      "cache": true
+    },
+    "build-storybook": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"],
+      "outputs": ["{projectRoot}/storybook-static"],
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": ["storybook build --quiet"]
+      },
+      "cache": true
+    },
+    "lint:check": {},
+    "lint": {},
+    "format": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "a-next-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "build:next": {},
+    "dev:next": {},
+    "lint:check": {},
+    "lint": {},
+    "format": {}
+  }
+}

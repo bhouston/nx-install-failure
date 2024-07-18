@@ -1,0 +1,23 @@
+{
+  "name": "f-library",
+  "private": true,
+  "version": "0.1.18",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@anatine/zod-mock": "^3.13.3",
+    "@faker-js/faker": "^8.3.1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "@nobody/d-library": "*",
+    "axios": "^1.7.2",
+    "formdata-polyfill": "^4.0.10",
+    "koa": "^2.14.2",
+    "rollbar": "^2.26.2",
+    "zod": "^3.22.4"
+  },
+  "sideEffects": false
+}

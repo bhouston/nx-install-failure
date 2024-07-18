@@ -1,0 +1,44 @@
+{
+  "name": "i-library",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+  },
+  "dependencies": {
+    "@date-fns/utc": "^1.2.0",
+    "@google-cloud/bigquery": "^7.5.1",
+    "@google-cloud/cloud-sql-connector": "^1.2.4",
+    "@google-cloud/sql": "^0.10.0",
+    "@google-cloud/storage": "^7.9.0",
+    "@nobody/d-library": "^0.1.42",
+    "@nobody/c-library": "^0.1.47",
+    "date-fns": "^3.6.0",
+    "humanize-duration": "^3.32.1",
+    "jose": "^5.4.1",
+    "kysely": "^0.27.3",
+    "kysely-codegen": "^0.13.1",
+    "mysql2": "^3.9.4",
+    "next": "14.1.4",
+    "p-all": "^5.0.0",
+    "pg": "^8.11.5",
+    "pg-query-stream": "^4.5.5",
+    "react": "^18",
+    "react-datepicker": "^7.1.0",
+    "react-dom": "^18",
+    "react-google-charts": "^4.0.1",
+    "react-icons": "^5.1.0",
+    "recharts": "^2.12.3",
+    "styled-components": "^6.1.8",
+    "ua-parser-js": "^1.0.34",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/humanize-duration": "^3.27.4",
+    "@types/pg": "^8.11.5",
+    "@types/react": "^18",
+    "@types/react-datepicker": "^6.2.0",
+    "@types/react-dom": "^18"
+  }
+}

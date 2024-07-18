@@ -1,0 +1,13 @@
+{
+  "name": "c-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "watch": {},
+    "serve": {},
+    "build": {},
+    "lint:check": {},
+    "lint": {},
+    "format": {},
+    "test": {}
+  }
+}

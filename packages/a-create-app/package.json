@@ -1,0 +1,16 @@
+{
+  "name": "a-create-app",
+  "version": "0.1.75",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "enquirer": "^2.4.1",
+    "fs-extra": "^11.2.0"
+  }
+}

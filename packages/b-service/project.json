@@ -1,0 +1,11 @@
+{
+  "name": "b-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "watch": {},
+    "build": {},
+    "lint": {},
+    "format": {},
+    "test": {}
+  }
+}

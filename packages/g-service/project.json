@@ -1,0 +1,12 @@
+{
+  "name": "g-service",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "serve": {},
+    "build": {},
+    "lint:check": {},
+    "lint": {},
+    "format": {},
+    "test": {}
+  }
+}

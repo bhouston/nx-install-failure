@@ -1,0 +1,19 @@
+{
+  "name": "@nobody/b-library",
+  "version": "0.1.83",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "@nobody/c-library": "^0.1.83",
+    "redux": "^5.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@anatine/zod-mock": "^3.13.3",
+    "@faker-js/faker": "^8.3.1"
+  },
+  "sideEffects": false,
+  "gitHead": "ee34436cf02076bde520f7cd51dd6a8848ff57cc"
+}

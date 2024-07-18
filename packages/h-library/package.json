@@ -1,0 +1,24 @@
+{
+  "name": "@nobody/h-library",
+  "version": "0.1.83",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "@nobody/b-library": "^0.1.83",
+    "@nobody/c-library": "^0.1.83",
+    "react-redux": "^9.1.0",
+    "redux": "^5.0.1",
+    "redux-logger": "^3.0.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/redux-logger": "^3.0.12",
+    "koa": "^2.15.0",
+    "koa-static": "^5.0.0",
+    "puppeteer": "^22.00.0"
+  },
+  "sideEffects": false,
+  "gitHead": "ee34436cf02076bde520f7cd51dd6a8848ff57cc"
+}

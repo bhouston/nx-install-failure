@@ -1,0 +1,33 @@
+{
+  "name": "b-next-app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.2.2",
+    "@rollbar/react": "^0.12.0-beta",
+    "@nobody/d-library": "^0.1.68",
+    "@nobody/c-library": "^0.1.74",
+    "i-library": "*",
+    "date-fns": "^3.6.0",
+    "next": "14.1.4",
+    "p-all": "^5.0.0",
+    "papaparse": "^5.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.1.0",
+    "rollbar": "^2.26.4",
+    "styled-components": "^6.1.8",
+    "ua-parser-js": "^1.0.34",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint-config-next": "14.1.4"
+  }
+}

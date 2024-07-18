@@ -1,0 +1,18 @@
+{
+  "name": "@nobody/d-library",
+  "version": "0.1.75",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "formdata-polyfill": "^4.0.10",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@anatine/zod-mock": "^3.13.3",
+    "@faker-js/faker": "^8.3.1"
+  },
+  "sideEffects": false,
+  "gitHead": "ee34436cf02076bde520f7cd51dd6a8848ff57cc"
+}
