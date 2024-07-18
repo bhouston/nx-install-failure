@@ -14,6 +14,10 @@ npm run clean
 npm install
 ```
 
+If it fails, just run ```npm install``` a second time and it will work.
+
+This is fully reproducible on Github Action Linux workers.
+
 The error that I get is this one:
 
 ```
